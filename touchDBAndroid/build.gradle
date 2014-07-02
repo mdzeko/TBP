@@ -1,0 +1,28 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.couchbase.touchdb"
+        minSdkVersion 8
+        targetSdkVersion 17
+
+        ndk {
+            moduleName "com_couchbase_touchdb_TDCollateJSON"
+        }
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/jackson-core-asl-1.9.2.jar')
+    compile files('libs/jackson-mapper-asl-1.9.2.jar')
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AplikacijaTBP.iml" filepath="$PROJECT_DIR$/AplikacijaTBP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchDBAndroid/touchDBAndroid.iml" filepath="$PROJECT_DIR$/touchDBAndroid/touchDBAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchDBAndroidEktorp/touchDBAndroidEktorp.iml" filepath="$PROJECT_DIR$/touchDBAndroidEktorp/touchDBAndroidEktorp.iml" />
+    </modules>
+  </component>
+</project>
+
